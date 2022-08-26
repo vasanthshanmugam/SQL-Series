@@ -1,0 +1,26 @@
+Creating a Table
+
+Syntax
+The basic syntax for creating a table can be given with:
+
+CREATE TABLE table_name (
+    column1_name data_type constraints,
+    column2_name data_type constraints,
+    ....
+);
+
+
+Table created in the video tutorial
+
+create table createAccount (
+  userID int AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL,
+  emailID VARCHAR(50) NOT NULL PRIMARY KEY,
+  password VARCHAR(50) NOT NULL
+  
+);
+
+Result
+CreateAccount
+userID	name	emailID	password
+empty
