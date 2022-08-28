@@ -1,0 +1,34 @@
+Select Statements
+
+--SQL Select Statement
+
+-- Select or Retrieve
+
+--Syntax of Select Statement
+
+--Select column_name1,column_name2 from Table_name;
+
+--Select all the values in one go
+
+--select * from Customers;
+
+--selecting specific columns
+
+-- Select order_id , amount from Orders;
+
+--Select Specific columns but with a different name
+
+--Select order_id as OrderNumber, amount as TotalMoneySpent from Orders;
+
+--Select Distinct
+
+-- Select Distinct column1,column2 from Table_name
+
+--select first_name, country from Customers;
+
+
+--select country from Customers;
+
+select count(*) as DistinctCountries from (select Distinct country from Customers);
+
+
